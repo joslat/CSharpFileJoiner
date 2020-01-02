@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <Version>1.0.3</Version>
+    <Description>Simple first try at an Open Source project for a basic C# file joiner to help in codingame competititions ;)</Description>
+  </PropertyGroup>
+
+</Project>
