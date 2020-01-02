@@ -5,27 +5,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-// https://docs.microsoft.com/en-us/dotnet/api/system.io.path.combine?view=netframework-4.8
-// https://www.sautinsoft.com/products/document/examples/merge-multiple-files-net-csharp-vb.php
-// 
-
-
-// 1. Base file class
-//    - get file list from a folder, absolute or relative "in-code"
-//    - provide interface providing a path and an output file
-//    - get list of "text" files, join them into one "as is"
-//    - TEST with the base functionality working on a "test directory"
-// 2. Code file class inheriting the 1st one.
-//    - filetype set to cs
-//    - *** option to go into subfolders? ;)
-//    - get all usings together as usings.
-//      - and remove duplicates..
-//    - option to take out the namespaces
-//    - TEST prj with a sample input and an output.
-//    - TEST     with performance check in ms.
-// 3. Nuget package.
-// 4. Example project that uses the nuget package with the latest TEST. Maybe with a Codingame.com simple application? ;)
-
 namespace CSharpFileJoiner
 {
     public class CSharpFileJoiner
